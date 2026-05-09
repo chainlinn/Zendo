@@ -23,8 +23,15 @@
 
 ## 安装
 
-从 [Releases](https://github.com/chainlinn/Zendo/releases) 下载最新 `Zendo.dmg`，
-打开后将 Zendo 拖入 Applications 即可。
+1. 从 [Releases](https://github.com/chainlinn/Zendo/releases) 下载最新 `Zendo.dmg`
+2. 打开 DMG，将 Zendo 拖入 Applications
+3. 首次打开如提示"已损坏，无法打开"，执行以下命令移除隔离标记：
+
+```bash
+xattr -cr /Applications/Zendo.app
+```
+
+然后即可正常打开。也可右键点击 Zendo.app → 按住 Option → 点击"打开"来绕过 Gatekeeper。
 
 ## 从源码构建
 
