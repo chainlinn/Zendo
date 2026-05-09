@@ -1,0 +1,5 @@
+.build/
+*.icns
+*.dmg
+*.iconset/
+.DS_Store
