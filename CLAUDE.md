@@ -1,4 +1,4 @@
-# CLAUDE.md — Zendo (禅道)
+# CLAUDE.md — Zendo
 
 ## Project
 

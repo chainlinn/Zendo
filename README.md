@@ -1,52 +1,52 @@
 # Zendo
 
-> 静けさの中で、時が流れる — In stillness, time flows.
+> 专注当下，保持简单 — 极简 Mac 番茄钟。
 
-A minimalist Mac Pomodoro timer. Menu bar icon + floating overlay panel.
-Design philosophy: Japanese Zen × Exaggerated Minimalism.
+一个极简的 macOS 番茄钟。菜单栏胶囊图标 + 悬浮计时面板。
+设计理念：极致简约，专注于当下的这一刻。
 
-## Features
+## 功能
 
-- **Floating timer panel** — toggle from menu bar, stays visible across spaces
-- **Live waveform ring** — four-frequency organic wave, flows during countdown, breathes on pause
-- **Three-phase colors** — vermilion focus, blue short break, green long break
-- **GitHub-style heatmap** — 26-week contribution graph tracking daily focus minutes
-- **Custom durations** — presets (15/25/50 min) or arbitrary via inline prompt
-- **Resizable panels** — both timer and stats windows freely resizable
-- **Persistent** — last-used durations and panel position remembered
-- **Zero dependencies** — pure SwiftUI + AppKit, no third-party packages
+- **悬浮计时面板** — 点击菜单栏图标切换，跨桌面常驻
+- **实时波形进度环** — 四频叠加波形，计时中流动，暂停时呼吸
+- **三色主题** — 专注红、短休蓝、长休绿
+- **GitHub 风格热力图** — 26 周每日专注时长统计，悬浮气泡显示详情
+- **自定义时长** — 预设（15/25/50 分钟）或菜单内输入任意分钟数
+- **可拉伸面板** — 计时面板和统计窗口均支持自由缩放
+- **持久化记忆** — 上次使用的时长和面板位置自动保存
+- **零依赖** — 纯 SwiftUI + AppKit，无第三方包
 
-## Requirements
+## 系统要求
 
-- macOS 14.0+ (Sonoma or later)
-- Apple Silicon (arm64)
+- macOS 14.0+（Sonoma 或更新版本）
+- Apple Silicon（arm64）
 
-## Install
+## 安装
 
-Download the latest `Zendo.dmg` from [Releases](https://github.com/chainlinn/Zendo/releases),
-open and drag Zendo to Applications.
+从 [Releases](https://github.com/chainlinn/Zendo/releases) 下载最新 `Zendo.dmg`，
+打开后将 Zendo 拖入 Applications 即可。
 
-## Build from source
+## 从源码构建
 
 ```bash
-make build          # Compile → .build/Zendo.app
-make run            # Build + launch
-make dmg            # Build + create DMG
-make clean          # Remove build artifacts
+make build          # 编译 → .build/Zendo.app
+make run            # 编译 + 启动
+make dmg            # 编译 + DMG 打包
+make clean          # 清理构建产物
 ```
 
-## Usage
+## 使用说明
 
-| Action | How |
+| 操作 | 方式 |
 |---|---|
-| Toggle timer panel | Click menu bar pill icon |
-| Start focus | Click ring, or right-click → 开始专注 |
-| Pause / Resume | Click ring during session |
-| Skip / Reset | Long-press ring (0.6s) or right-click menu |
-| Adjust duration | Scroll on panel while idle, or menu → custom |
-| Stats | Right-click → 统计 |
-| Launch at login | Right-click → 登录时启动 |
+| 切换计时面板 | 点击菜单栏胶囊图标 |
+| 开始专注 | 点击圆环，或右键 → 开始专注 |
+| 暂停 / 继续 | 计时中点击圆环 |
+| 跳过 / 重置 | 长按圆环（0.6 秒）或右键菜单 |
+| 调整时长 | 空闲时在面板上滚动，或菜单 → 自定义 |
+| 查看统计 | 右键 → 统计 |
+| 登录启动 | 右键 → 登录时启动 |
 
-## License
+## 许可
 
 MIT
